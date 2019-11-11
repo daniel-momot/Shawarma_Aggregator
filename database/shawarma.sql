@@ -37,11 +37,10 @@ create table Outlets
 /*==============================================================*/
 create table Outlet_Shawarma_Price
 (
-   ID                   int not null auto_increment,
    Outlet_ID            int not null,
    Shawarma_ID          int not null,
    "Price, rubles"      int not null,
-   primary key (ID),
+   primary key (Outlet_ID, Shawarma_ID),
    constraint FK_OUTLET_S_SHAWARMA__SHAWARMA foreign key (Shawarma_ID)
       references Shawarma (ID) on delete restrict on update restrict,
    constraint FK_OUTLET_S_REFERENCE_OUTLETS foreign key (Outlet_ID)
