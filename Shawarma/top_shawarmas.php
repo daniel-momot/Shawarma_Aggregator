@@ -30,14 +30,14 @@
   if(isset($_POST['num']) && isset($_POST['print'])) {
     $limit = $_POST['num'];
 
-    $query = "SELECT nested.Outlet_name AS `Outlet name`, nested.`Average rating`, nested.`Number of reviews`
-              FROM (SELECT outl.ID, outl.Outlet_name, 
-                           AVG(revs.Rating) AS `Average rating`, 
-                           COUNT(DISTINCT revs.ID) AS `Number of reviews`
-                     FROM outlets outl JOIN reviews revs ON (outl.ID = revs.Outlet_ID) 
-                     Group by outl.ID, outl.Outlet_name
-                     Having COUNT(DISTINCT revs.ID) > 2) AS nested
-              LIMIT $limit";
+    $query = "SELECT outl.Outlet_name AS `Outlet name`, 
+                     AVG(revs.Rating) AS `Average rating`, 
+                     COUNT(revs.ID) AS `Number of reviews`
+                FROM outlets outl JOIN reviews revs ON (outl.ID = revs.Outlet_ID) 
+                Group by outl.ID, outl.Outlet_name
+                Having `Number of reviews` > 2
+                ORDER BY `Average rating` DESC
+                LIMIT $limit";
     
     if(!$pdo_res = $pdo->query($query)) {
       echo 'Database query failed: (' . $pdo->errorCode() . ') ' . $pdo->errorInfo()[2];
