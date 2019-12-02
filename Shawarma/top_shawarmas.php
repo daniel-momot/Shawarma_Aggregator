@@ -36,7 +36,7 @@
                 FROM outlets outl JOIN reviews revs ON (outl.ID = revs.Outlet_ID) 
                 Group by outl.ID, outl.Outlet_name
                 Having `Number of reviews` > 2
-                ORDER BY `Average rating` DESC, `Number of reviews`, `Outlet name`
+                ORDER BY `Average rating` DESC, `Number of reviews` DESC, `Outlet name`
                 LIMIT $limit";
     
     if(!$pdo_res = $pdo->query($query)) {
