@@ -1,4 +1,12 @@
 /*==============================================================*/
+/* Deleting tables if exist                                              */
+/*==============================================================*/
+drop table if exists Outlet_Shawarma_Price;
+drop table if exists Reviews;
+drop table if exists Shawarma;
+drop table if exists Outlets;
+
+/*==============================================================*/
 /* Table: Shawarma                                              */
 /*==============================================================*/
 drop table if exists Shawarma;
@@ -21,7 +29,6 @@ create unique index UNIQUE_TYPE on Shawarma
 /*==============================================================*/
 /* Table: Outlets                                               */
 /*==============================================================*/
-drop table if exists Outlets;
 create table Outlets
 (
    ID                   int not null auto_increment,
@@ -32,7 +39,6 @@ create table Outlets
 /*==============================================================*/
 /* Table: Outlet_Shawarma_Price                                 */
 /*==============================================================*/
-drop table if exists Outlet_Shawarma_Price;
 create table Outlet_Shawarma_Price
 (
    Outlet_ID            int not null,
@@ -57,7 +63,6 @@ create unique index OUTLET_SHAWARMA_PRICE_UNIQUE on Outlet_Shawarma_Price
 /*==============================================================*/
 /* Table: Reviews                                               */
 /*==============================================================*/
-drop table if exists Reviews;
 create table Reviews
 (
    ID                   int not null auto_increment,
