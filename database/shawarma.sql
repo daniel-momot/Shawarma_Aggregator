@@ -1,6 +1,7 @@
 /*==============================================================*/
 /* Table: Shawarma                                              */
 /*==============================================================*/
+drop table if exists Shawarma;
 create table Shawarma
 (
    ID                   int not null auto_increment,
@@ -10,8 +11,17 @@ create table Shawarma
 );
 
 /*==============================================================*/
+/* Index: UNIQUE_TYPE                                           */
+/*==============================================================*/
+create unique index UNIQUE_TYPE on Shawarma
+(
+   Type
+);
+
+/*==============================================================*/
 /* Table: Outlets                                               */
 /*==============================================================*/
+drop table if exists Outlets;
 create table Outlets
 (
    ID                   int not null auto_increment,
@@ -22,6 +32,7 @@ create table Outlets
 /*==============================================================*/
 /* Table: Outlet_Shawarma_Price                                 */
 /*==============================================================*/
+drop table if exists Outlet_Shawarma_Price;
 create table Outlet_Shawarma_Price
 (
    Outlet_ID            int not null,
@@ -46,6 +57,7 @@ create unique index OUTLET_SHAWARMA_PRICE_UNIQUE on Outlet_Shawarma_Price
 /*==============================================================*/
 /* Table: Reviews                                               */
 /*==============================================================*/
+drop table if exists Reviews;
 create table Reviews
 (
    ID                   int not null auto_increment,
@@ -55,12 +67,4 @@ create table Reviews
    primary key (ID),
    constraint FK_REVIEWS_REFERENCE_OUTLETS foreign key (Outlet_ID)
       references Outlets (ID) on delete restrict on update restrict
-);
-
-/*==============================================================*/
-/* Index: UNIQUE_TYPE                                           */
-/*==============================================================*/
-create unique index UNIQUE_TYPE on Shawarma
-(
-   Type
 );
