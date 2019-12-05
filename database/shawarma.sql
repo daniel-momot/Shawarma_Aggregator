@@ -26,7 +26,7 @@ create table Outlet_Shawarma_Price
 (
    Outlet_ID            int not null,
    Shawarma_ID          int not null,
-   "Price, rubles"      int not null,
+   Price      			int not null,
    primary key (Outlet_ID, Shawarma_ID),
    constraint FK_OUTLET_S_SHAWARMA__SHAWARMA foreign key (Shawarma_ID)
       references Shawarma (ID) on delete restrict on update restrict,
