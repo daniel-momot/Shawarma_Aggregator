@@ -10,26 +10,13 @@ create table Shawarma
 );
 
 /*==============================================================*/
-/* Table: Owners                                                */
-/*==============================================================*/
-create table Owners
-(
-   ID                   int not null auto_increment,
-   Owner_name           varchar(40) not null,
-   primary key (ID)
-);
-
-/*==============================================================*/
 /* Table: Outlets                                               */
 /*==============================================================*/
 create table Outlets
 (
    ID                   int not null auto_increment,
-   Owner_ID             int not null,
    Outlet_name          varchar(100) not null,
-   primary key (ID),
-   constraint FK_OUTLETS_OWNERS_OU_OWNERS foreign key (Owner_ID)
-      references Owners (ID) on delete cascade on update cascade
+   primary key (ID)
 );
 
 /*==============================================================*/
