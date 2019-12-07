@@ -37,6 +37,14 @@ create table Outlets
 );
 
 /*==============================================================*/
+/* Index: UNIQUE_OUTLET_NAME                                           */
+/*==============================================================*/
+create unique index UNIQUE_OUTLET_NAME on Outlets
+(
+   Outlet_name
+);
+
+/*==============================================================*/
 /* Table: Outlet_Shawarma_Price                                 */
 /*==============================================================*/
 create table Outlet_Shawarma_Price
@@ -269,9 +277,3 @@ INSERT INTO `outlet_shawarma_price`(`Outlet_ID`, `Shawarma_ID`, `Price`) VALUES 
 INSERT INTO `outlet_shawarma_price`(`Outlet_ID`, `Shawarma_ID`, `Price`) VALUES (12, 9, 771);
 INSERT INTO `outlet_shawarma_price`(`Outlet_ID`, `Shawarma_ID`, `Price`) VALUES (12, 10, 31);
 INSERT INTO `outlet_shawarma_price`(`Outlet_ID`, `Shawarma_ID`, `Price`) VALUES (12, 11, 934);
-
-
-
-
-
-
