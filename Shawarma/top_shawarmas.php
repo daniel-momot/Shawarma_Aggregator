@@ -28,7 +28,7 @@
     $limit = $_POST['num'];
 
     $query = "SELECT outl.Outlet_name AS `Outlet name`, 
-                     AVG(revs.Rating) AS `Average rating`, 
+                     ROUND(AVG(revs.Rating), 1) AS `Average rating`, 
                      COUNT(revs.ID) AS `Number of reviews`
                 FROM outlets outl JOIN reviews revs ON (outl.ID = revs.Outlet_ID) 
                 Group by outl.ID, outl.Outlet_name
