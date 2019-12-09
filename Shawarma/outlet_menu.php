@@ -4,7 +4,7 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Best Shawarmas</title>
+    <title>Outlet menu</title>
 </head>
 
 <body>
@@ -22,7 +22,7 @@
         $sel_query = $pdo->query("SELECT ID, Outlet_name FROM outlets ORDER BY Outlet_name");
         
         if(!$sel_query) {
-          echo 'Database query failed: (' . $pdo->errorCode() . ') ' . $pdo->errorInfo()[2];
+          echo "Database query failed: ({$pdo->errorCode()}) {$pdo->errorInfo()[2]}";
         } else {
           echo make_select('outlet_select', $sel_query->fetchAll(), true);
         }
@@ -38,9 +38,9 @@
           $menu_header_query = $pdo->query("SELECT Outlet_name FROM outlets WHERE ID = $outlet_id");
           
           if(!$menu_header_query) {
-            echo 'Database query failed: (' . $pdo->errorCode() . ') ' . $pdo->errorInfo()[2];
+            echo "Database query failed: ({$pdo->errorCode()}) {$pdo->errorInfo()[2]}";
           } else {
-            echo '<h3>' . $menu_header_query->fetch()[0] . '<br /> Menu: </h3>';
+            echo "<h3> {$menu_header_query->fetch()[0]} <br /> Menu: </h3>";
           }
           
           $query = "SELECT sh.Type AS `Shawarma`, 
@@ -52,7 +52,7 @@
                     ORDER BY `Shawarma`";
                     
           if(!$pdo_menu_query = $pdo->query($query)) {
-            echo 'Database query failed: (' . $pdo->errorCode() . ') ' . $pdo->errorInfo()[2];
+            echo "Database query failed: ({$pdo->errorCode()}) {$pdo->errorInfo()[2]}";
           }
           elseif(count($menu_query_rows = $pdo_menu_query->fetchAll()) === 0) {
             echo 'No menu =(';

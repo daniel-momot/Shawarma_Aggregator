@@ -4,7 +4,7 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Best Shawarmas</title>
+    <title>Add outlets</title>
 </head>
 
 <body>
@@ -17,30 +17,34 @@
       <input type="text" name="outlet_name" style="width: 10em" required>&nbsp
       <input type="submit" name="add_outlet" value="Add">
     </form><br />
-
+    
 <?php
   include 'Connect.php';
   include 'Functions.php';
   
-  if(isset($_POST['outlet_name']) && !empty($_POST['outlet_name'])) {
+  if(isset($_POST['add_outlet']) && !empty($_POST['outlet_name'])) {
+    $date= date("Y-m-d");
+    echo "<br /> <hr /> <br />Today is: $date. <br /> <br />";
     
-    $sel_query = $pdo->query("INSERT INTO `outlets`(`Outlet_name`) VALUES ('".$_POST['outlet_name']."');");
+    $ins_query = $pdo->query("INSERT INTO `outlets`(`Outlet_name`) VALUES ('{$_POST['outlet_name']}');");
     
-    if(!$sel_query) {
-		$res = $pdo->errorCode();
-		if ($res == 23000) {
-			echo 'Outlet with this name already exists';
+    if(!$ins_query) {
+		$code = $pdo->errorCode();
+		if ($code == 23000) {
+			echo 'Outlet with this name already exists <br /> <br /> <hr />';
 		}
 		else {
-			echo 'Database query failed: (' . $pdo->errorCode() . ') ' . $pdo->errorInfo()[2];
+			echo "Database query failed: ({$pdo->errorCode()}) {$pdo->errorInfo()[2]} <br /> <br /> <hr />";
 		}
     } else {
-		echo 'Outlet successfully added!';
-		$sel_query = $pdo->query("SELECT ID, Outlet_name FROM outlets ORDER BY Outlet_name");		
-		if(!$sel_query) {
-			echo 'Database query failed: (' . $pdo->errorCode() . ') ' . $pdo->errorInfo()[2];
+		echo 'Outlet successfully added! <br /> <br /> <hr />';
+    
+		$select_query = $pdo->query("SELECT ID, Outlet_name FROM outlets ORDER BY ID DESC");		
+		if(!$select_query) {
+			echo "Database query failed: ({$pdo->errorCode()}) {$pdo->errorInfo()[2]}";
 		} else {
-			echo make_table($sel_query->fetchAll());
+      echo '<h3> Table: </h3>';
+			echo make_table($select_query->fetchAll());
 		}
 	}    
   }

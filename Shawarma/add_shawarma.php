@@ -4,7 +4,7 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Best Shawarmas</title>
+    <title>Add shawarma</title>
 </head>
 
 <body>
@@ -16,7 +16,7 @@
       Shawarma name: &nbsp
       <input type="text" name="shawarma_name" style="width: 10em" required>&nbsp
       Shawarma description: &nbsp
-      <input type="text" name="shawarma_descr" style="width: 10em">&nbsp
+      <input type="text" name="shawarma_descr" style="width: 20em">&nbsp
       <input type="submit" name="add_shawarma" value="Add">
     </form><br />
 
@@ -24,30 +24,34 @@
   include 'Connect.php';
   include 'Functions.php';
   
-  if(isset($_POST['shawarma_name']) && !empty($_POST['shawarma_name'])) {
-    
-	if(isset($_POST['shawarma_descr']) && !empty($_POST['shawarma_descr'])) {
-		$sel_query = $pdo->query("INSERT INTO `shawarma`(`Type`, `Description`) VALUES ('". $_POST['shawarma_name'] . "', '" . $_POST['shawarma_descr'] . "');");
+  if(isset($_POST['add_shawarma']) && !empty($_POST['shawarma_name'])) {
+    $date= date("Y-m-d");
+    echo "<br /> <hr /> <br />Today is: $date. <br /> <br />";
+
+	if(!empty($_POST['shawarma_descr'])) {
+		$ins_query = $pdo->query("INSERT INTO `shawarma`(`Type`, `Description`) VALUES ('{$_POST['shawarma_name']}', '{$_POST['shawarma_descr']}');");
 	}
 	else {
-		$sel_query = $pdo->query("INSERT INTO `shawarma`(`Type`) VALUES ('". $_POST['shawarma_name'] . "');");
+		$ins_query = $pdo->query("INSERT INTO `shawarma`(`Type`) VALUES ('{$_POST['shawarma_name']}');");
 	}
     
-    if(!$sel_query) {
-		$res = $pdo->errorCode();
-		if ($res == 23000) {
-			echo 'Shawarma with this name already exists';
+    if(!$ins_query) {
+		$code = $pdo->errorCode();
+		if ($code == 23000) {
+			echo 'Shawarma with this name already exists <br /> <br /> <hr />';
 		}
 		else {
-			echo 'Database query failed: (' . $pdo->errorCode() . ') ' . $pdo->errorInfo()[2];
+			echo "Database query failed: ({$pdo->errorCode()}) {$pdo->errorInfo()[2]} <br /> <br /> <hr />";
 		}
     } else {
-		echo 'Shawarma successfully added!';
-		$sel_query = $pdo->query("SELECT ID, Type, Description FROM Shawarma ORDER BY Type");		
+		echo 'Shawarma successfully added! <br /> <br /> <hr />';
+
+		$sel_query = $pdo->query("SELECT ID, Type, Description FROM Shawarma ORDER BY ID DESC");		
 		if(!$sel_query) {
-			echo 'Database query failed: (' . $pdo->errorCode() . ') ' . $pdo->errorInfo()[2];
+			echo "Database query failed: ({$pdo->errorCode()}) {$pdo->errorInfo()[2]}";
 		} else {
-			echo make_table($sel_query->fetchAll());
+			echo '<h3> Table: </h3>';
+      echo make_table($sel_query->fetchAll());
 		}
 	}    
   }

@@ -7,7 +7,7 @@ $password = 'vertrigo';
 try {
   $pdo = new PDO($dsn, $user, $password);
 } catch (PDOException $e) {
-  die('Connection failed: ' . $e->getMessage());
+  die("<br />Connection failed: {$e->getMessage()} <br />");
 }
 
 $pdo->query("SET NAMES 'utf8';");

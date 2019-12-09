@@ -22,7 +22,7 @@
         $sel_query = $pdo->query("SELECT ID, Type FROM shawarma ORDER BY Type");
         
         if(!$sel_query) {
-          echo 'Database query failed: (' . $pdo->errorCode() . ') ' . $pdo->errorInfo()[2];
+          echo "Database query failed: ({$pdo->errorCode()}) {$pdo->errorInfo()[2]}";
         } else {
           echo make_select('shawarma_select', $sel_query->fetchAll(), true);
         }
@@ -38,9 +38,9 @@
           $prices_header_query = $pdo->query("SELECT Type FROM shawarma WHERE ID = $shawarma_id");
           
           if(!$prices_header_query) {
-            echo 'Database query failed: (' . $pdo->errorCode() . ') ' . $pdo->errorInfo()[2];
+            echo "Database query failed: ({$pdo->errorCode()}) {$pdo->errorInfo()[2]}";
           } else {
-            echo '<h3>' . $prices_header_query->fetch()[0] . '<br /> Prices: </h3>';
+            echo "<h3> {$prices_header_query->fetch()[0]} <br /> Prices: </h3>";
           }
           
           $query = "SELECT outl.Outlet_name AS `Outlet`, 
@@ -51,7 +51,7 @@
                     ORDER BY `Price`";
                     
           if(!$pdo_prices_query = $pdo->query($query)) {
-            echo 'Database query failed: (' . $pdo->errorCode() . ') ' . $pdo->errorInfo()[2];
+            echo "Database query failed: ({$pdo->errorCode()}) {$pdo->errorInfo()[2]}";
           }
           elseif(count($prices_query_rows = $pdo_prices_query->fetchAll()) === 0) {
             echo 'There are no prices for the selected shawarma =(';

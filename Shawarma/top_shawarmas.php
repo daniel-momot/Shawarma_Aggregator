@@ -37,7 +37,7 @@
                 LIMIT $limit";
     
     if(!$pdo_res = $pdo->query($query)) {
-      echo 'Database query failed: (' . $pdo->errorCode() . ') ' . $pdo->errorInfo()[2];
+      echo "Database query failed: ({$pdo->errorCode()}) {$pdo->errorInfo()[2]}";
     }
     elseif(count($query_rows = $pdo_res->fetchAll()) === 0) {
       echo 'Not enough reviews =(';
