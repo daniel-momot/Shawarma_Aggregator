@@ -21,7 +21,9 @@
     </form><br />
 
 <?php
+  // make connection to the databse 
   include 'Connect.php';
+  // use functions from functions.php file (make_table)
   include 'Functions.php';
   
   if(isset($_POST['num']) && isset($_POST['print'])) {

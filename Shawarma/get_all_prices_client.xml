@@ -1,0 +1,1984 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="shawarma_style.xsl"?>
+<!-- all prices for all types of shawarma -->
+<prices>  
+  <!-- price for a specific instance of shawarma -->
+  <instance>
+    <outlet rating="5.7">
+      Anime Shawarma
+    </outlet>
+    <type>
+      Brtus
+    </type>
+    <description>
+      Brtus is a type of Shawarma
+    </description>
+    <price>
+      1409
+    </price>
+  </instance>  
+  <!-- price for a specific instance of shawarma -->
+  <instance>
+    <outlet rating="5.7">
+      Anime Shawarma
+    </outlet>
+    <type>
+      Burrito
+    </type>
+    <description>
+      Burrito is a type of Shawarma
+    </description>
+    <price>
+      1064
+    </price>
+  </instance>  
+  <!-- price for a specific instance of shawarma -->
+  <instance>
+    <outlet rating="5.7">
+      Anime Shawarma
+    </outlet>
+    <type>
+      Doner kebab
+    </type>
+    <description>
+      Doner kebab is a type of Shawarma
+    </description>
+    <price>
+      1806
+    </price>
+  </instance>  
+  <!-- price for a specific instance of shawarma -->
+  <instance>
+    <outlet rating="5.7">
+      Anime Shawarma
+    </outlet>
+    <type>
+      Durum
+    </type>
+    <description>
+      Durum is a type of Shawarma
+    </description>
+    <price>
+      46
+    </price>
+  </instance>  
+  <!-- price for a specific instance of shawarma -->
+  <instance>
+    <outlet rating="5.7">
+      Anime Shawarma
+    </outlet>
+    <type>
+      Enchilada
+    </type>
+    <description>
+      Enchilada is a type of Shawarma
+    </description>
+    <price>
+      114
+    </price>
+  </instance>  
+  <!-- price for a specific instance of shawarma -->
+  <instance>
+    <outlet rating="5.7">
+      Anime Shawarma
+    </outlet>
+    <type>
+      Fajitas
+    </type>
+    <description>
+      Fajitas is a type of Shawarma
+    </description>
+    <price>
+      446
+    </price>
+  </instance>  
+  <!-- price for a specific instance of shawarma -->
+  <instance>
+    <outlet rating="5.7">
+      Anime Shawarma
+    </outlet>
+    <type>
+      Gyros
+    </type>
+    <description>
+      Gyros is a type of Shawarma
+    </description>
+    <price>
+      332
+    </price>
+  </instance>  
+  <!-- price for a specific instance of shawarma -->
+  <instance>
+    <outlet rating="5.7">
+      Anime Shawarma
+    </outlet>
+    <type>
+      Pita bread with barbecue
+    </type>
+    <description>
+      Pita bread with barbecue is a type of Shawarma
+    </description>
+    <price>
+      1504
+    </price>
+  </instance>  
+  <!-- price for a specific instance of shawarma -->
+  <instance>
+    <outlet rating="5.7">
+      Anime Shawarma
+    </outlet>
+    <type>
+      Quesadilla
+    </type>
+    <description>
+      Quesadilla is a type of Shawarma
+    </description>
+    <price>
+      821
+    </price>
+  </instance>  
+  <!-- price for a specific instance of shawarma -->
+  <instance>
+    <outlet rating="5.7">
+      Anime Shawarma
+    </outlet>
+    <type>
+      Taco
+    </type>
+    <description>
+      Taco is a type of Shawarma
+    </description>
+    <price>
+      1481
+    </price>
+  </instance>  
+  <!-- price for a specific instance of shawarma -->
+  <instance>
+    <outlet rating="5.7">
+      Anime Shawarma
+    </outlet>
+    <type>
+      Tantuni
+    </type>
+    <description>
+      Tantuni is a type of Shawarma
+    </description>
+    <price>
+      941
+    </price>
+  </instance>  
+  <!-- price for a specific instance of shawarma -->
+  <instance>
+    <outlet rating="7.3">
+      Batman and shawarma
+    </outlet>
+    <type>
+      Brtus
+    </type>
+    <description>
+      Brtus is a type of Shawarma
+    </description>
+    <price>
+      1298
+    </price>
+  </instance>  
+  <!-- price for a specific instance of shawarma -->
+  <instance>
+    <outlet rating="7.3">
+      Batman and shawarma
+    </outlet>
+    <type>
+      Burrito
+    </type>
+    <description>
+      Burrito is a type of Shawarma
+    </description>
+    <price>
+      664
+    </price>
+  </instance>  
+  <!-- price for a specific instance of shawarma -->
+  <instance>
+    <outlet rating="7.3">
+      Batman and shawarma
+    </outlet>
+    <type>
+      Doner kebab
+    </type>
+    <description>
+      Doner kebab is a type of Shawarma
+    </description>
+    <price>
+      1921
+    </price>
+  </instance>  
+  <!-- price for a specific instance of shawarma -->
+  <instance>
+    <outlet rating="7.3">
+      Batman and shawarma
+    </outlet>
+    <type>
+      Durum
+    </type>
+    <description>
+      Durum is a type of Shawarma
+    </description>
+    <price>
+      903
+    </price>
+  </instance>  
+  <!-- price for a specific instance of shawarma -->
+  <instance>
+    <outlet rating="7.3">
+      Batman and shawarma
+    </outlet>
+    <type>
+      Enchilada
+    </type>
+    <description>
+      Enchilada is a type of Shawarma
+    </description>
+    <price>
+      1642
+    </price>
+  </instance>  
+  <!-- price for a specific instance of shawarma -->
+  <instance>
+    <outlet rating="7.3">
+      Batman and shawarma
+    </outlet>
+    <type>
+      Fajitas
+    </type>
+    <description>
+      Fajitas is a type of Shawarma
+    </description>
+    <price>
+      1685
+    </price>
+  </instance>  
+  <!-- price for a specific instance of shawarma -->
+  <instance>
+    <outlet rating="7.3">
+      Batman and shawarma
+    </outlet>
+    <type>
+      Gyros
+    </type>
+    <description>
+      Gyros is a type of Shawarma
+    </description>
+    <price>
+      881
+    </price>
+  </instance>  
+  <!-- price for a specific instance of shawarma -->
+  <instance>
+    <outlet rating="7.3">
+      Batman and shawarma
+    </outlet>
+    <type>
+      Pita bread with barbecue
+    </type>
+    <description>
+      Pita bread with barbecue is a type of Shawarma
+    </description>
+    <price>
+      1794
+    </price>
+  </instance>  
+  <!-- price for a specific instance of shawarma -->
+  <instance>
+    <outlet rating="7.3">
+      Batman and shawarma
+    </outlet>
+    <type>
+      Quesadilla
+    </type>
+    <description>
+      Quesadilla is a type of Shawarma
+    </description>
+    <price>
+      1222
+    </price>
+  </instance>  
+  <!-- price for a specific instance of shawarma -->
+  <instance>
+    <outlet rating="7.3">
+      Batman and shawarma
+    </outlet>
+    <type>
+      Taco
+    </type>
+    <description>
+      Taco is a type of Shawarma
+    </description>
+    <price>
+      474
+    </price>
+  </instance>  
+  <!-- price for a specific instance of shawarma -->
+  <instance>
+    <outlet rating="7.3">
+      Batman and shawarma
+    </outlet>
+    <type>
+      Tantuni
+    </type>
+    <description>
+      Tantuni is a type of Shawarma
+    </description>
+    <price>
+      1353
+    </price>
+  </instance>  
+  <!-- price for a specific instance of shawarma -->
+  <instance>
+    <outlet rating="5.7">
+      Buy our shawarma
+    </outlet>
+    <type>
+      Brtus
+    </type>
+    <description>
+      Brtus is a type of Shawarma
+    </description>
+    <price>
+      282
+    </price>
+  </instance>  
+  <!-- price for a specific instance of shawarma -->
+  <instance>
+    <outlet rating="5.7">
+      Buy our shawarma
+    </outlet>
+    <type>
+      Burrito
+    </type>
+    <description>
+      Burrito is a type of Shawarma
+    </description>
+    <price>
+      288
+    </price>
+  </instance>  
+  <!-- price for a specific instance of shawarma -->
+  <instance>
+    <outlet rating="5.7">
+      Buy our shawarma
+    </outlet>
+    <type>
+      Doner kebab
+    </type>
+    <description>
+      Doner kebab is a type of Shawarma
+    </description>
+    <price>
+      1657
+    </price>
+  </instance>  
+  <!-- price for a specific instance of shawarma -->
+  <instance>
+    <outlet rating="5.7">
+      Buy our shawarma
+    </outlet>
+    <type>
+      Durum
+    </type>
+    <description>
+      Durum is a type of Shawarma
+    </description>
+    <price>
+      1680
+    </price>
+  </instance>  
+  <!-- price for a specific instance of shawarma -->
+  <instance>
+    <outlet rating="5.7">
+      Buy our shawarma
+    </outlet>
+    <type>
+      Enchilada
+    </type>
+    <description>
+      Enchilada is a type of Shawarma
+    </description>
+    <price>
+      137
+    </price>
+  </instance>  
+  <!-- price for a specific instance of shawarma -->
+  <instance>
+    <outlet rating="5.7">
+      Buy our shawarma
+    </outlet>
+    <type>
+      Fajitas
+    </type>
+    <description>
+      Fajitas is a type of Shawarma
+    </description>
+    <price>
+      1932
+    </price>
+  </instance>  
+  <!-- price for a specific instance of shawarma -->
+  <instance>
+    <outlet rating="5.7">
+      Buy our shawarma
+    </outlet>
+    <type>
+      Gyros
+    </type>
+    <description>
+      Gyros is a type of Shawarma
+    </description>
+    <price>
+      1935
+    </price>
+  </instance>  
+  <!-- price for a specific instance of shawarma -->
+  <instance>
+    <outlet rating="5.7">
+      Buy our shawarma
+    </outlet>
+    <type>
+      Pita bread with barbecue
+    </type>
+    <description>
+      Pita bread with barbecue is a type of Shawarma
+    </description>
+    <price>
+      1556
+    </price>
+  </instance>  
+  <!-- price for a specific instance of shawarma -->
+  <instance>
+    <outlet rating="5.7">
+      Buy our shawarma
+    </outlet>
+    <type>
+      Quesadilla
+    </type>
+    <description>
+      Quesadilla is a type of Shawarma
+    </description>
+    <price>
+      1340
+    </price>
+  </instance>  
+  <!-- price for a specific instance of shawarma -->
+  <instance>
+    <outlet rating="5.7">
+      Buy our shawarma
+    </outlet>
+    <type>
+      Taco
+    </type>
+    <description>
+      Taco is a type of Shawarma
+    </description>
+    <price>
+      168
+    </price>
+  </instance>  
+  <!-- price for a specific instance of shawarma -->
+  <instance>
+    <outlet rating="5.7">
+      Buy our shawarma
+    </outlet>
+    <type>
+      Tantuni
+    </type>
+    <description>
+      Tantuni is a type of Shawarma
+    </description>
+    <price>
+      844
+    </price>
+  </instance>  
+  <!-- price for a specific instance of shawarma -->
+  <instance>
+    <outlet rating="6.0">
+      Good shawarma
+    </outlet>
+    <type>
+      Brtus
+    </type>
+    <description>
+      Brtus is a type of Shawarma
+    </description>
+    <price>
+      937
+    </price>
+  </instance>  
+  <!-- price for a specific instance of shawarma -->
+  <instance>
+    <outlet rating="6.0">
+      Good shawarma
+    </outlet>
+    <type>
+      Burrito
+    </type>
+    <description>
+      Burrito is a type of Shawarma
+    </description>
+    <price>
+      1492
+    </price>
+  </instance>  
+  <!-- price for a specific instance of shawarma -->
+  <instance>
+    <outlet rating="6.0">
+      Good shawarma
+    </outlet>
+    <type>
+      Doner kebab
+    </type>
+    <description>
+      Doner kebab is a type of Shawarma
+    </description>
+    <price>
+      538
+    </price>
+  </instance>  
+  <!-- price for a specific instance of shawarma -->
+  <instance>
+    <outlet rating="6.0">
+      Good shawarma
+    </outlet>
+    <type>
+      Durum
+    </type>
+    <description>
+      Durum is a type of Shawarma
+    </description>
+    <price>
+      408
+    </price>
+  </instance>  
+  <!-- price for a specific instance of shawarma -->
+  <instance>
+    <outlet rating="6.0">
+      Good shawarma
+    </outlet>
+    <type>
+      Enchilada
+    </type>
+    <description>
+      Enchilada is a type of Shawarma
+    </description>
+    <price>
+      545
+    </price>
+  </instance>  
+  <!-- price for a specific instance of shawarma -->
+  <instance>
+    <outlet rating="6.0">
+      Good shawarma
+    </outlet>
+    <type>
+      Fajitas
+    </type>
+    <description>
+      Fajitas is a type of Shawarma
+    </description>
+    <price>
+      1704
+    </price>
+  </instance>  
+  <!-- price for a specific instance of shawarma -->
+  <instance>
+    <outlet rating="6.0">
+      Good shawarma
+    </outlet>
+    <type>
+      Gyros
+    </type>
+    <description>
+      Gyros is a type of Shawarma
+    </description>
+    <price>
+      879
+    </price>
+  </instance>  
+  <!-- price for a specific instance of shawarma -->
+  <instance>
+    <outlet rating="6.0">
+      Good shawarma
+    </outlet>
+    <type>
+      Pita bread with barbecue
+    </type>
+    <description>
+      Pita bread with barbecue is a type of Shawarma
+    </description>
+    <price>
+      350
+    </price>
+  </instance>  
+  <!-- price for a specific instance of shawarma -->
+  <instance>
+    <outlet rating="6.0">
+      Good shawarma
+    </outlet>
+    <type>
+      Quesadilla
+    </type>
+    <description>
+      Quesadilla is a type of Shawarma
+    </description>
+    <price>
+      1686
+    </price>
+  </instance>  
+  <!-- price for a specific instance of shawarma -->
+  <instance>
+    <outlet rating="6.0">
+      Good shawarma
+    </outlet>
+    <type>
+      Taco
+    </type>
+    <description>
+      Taco is a type of Shawarma
+    </description>
+    <price>
+      40
+    </price>
+  </instance>  
+  <!-- price for a specific instance of shawarma -->
+  <instance>
+    <outlet rating="6.0">
+      Good shawarma
+    </outlet>
+    <type>
+      Tantuni
+    </type>
+    <description>
+      Tantuni is a type of Shawarma
+    </description>
+    <price>
+      1306
+    </price>
+  </instance>  
+  <!-- price for a specific instance of shawarma -->
+  <instance>
+    <outlet rating="6.0">
+      Love is ... shawarma
+    </outlet>
+    <type>
+      Brtus
+    </type>
+    <description>
+      Brtus is a type of Shawarma
+    </description>
+    <price>
+      738
+    </price>
+  </instance>  
+  <!-- price for a specific instance of shawarma -->
+  <instance>
+    <outlet rating="6.0">
+      Love is ... shawarma
+    </outlet>
+    <type>
+      Burrito
+    </type>
+    <description>
+      Burrito is a type of Shawarma
+    </description>
+    <price>
+      380
+    </price>
+  </instance>  
+  <!-- price for a specific instance of shawarma -->
+  <instance>
+    <outlet rating="6.0">
+      Love is ... shawarma
+    </outlet>
+    <type>
+      Doner kebab
+    </type>
+    <description>
+      Doner kebab is a type of Shawarma
+    </description>
+    <price>
+      1017
+    </price>
+  </instance>  
+  <!-- price for a specific instance of shawarma -->
+  <instance>
+    <outlet rating="6.0">
+      Love is ... shawarma
+    </outlet>
+    <type>
+      Durum
+    </type>
+    <description>
+      Durum is a type of Shawarma
+    </description>
+    <price>
+      1451
+    </price>
+  </instance>  
+  <!-- price for a specific instance of shawarma -->
+  <instance>
+    <outlet rating="6.0">
+      Love is ... shawarma
+    </outlet>
+    <type>
+      Enchilada
+    </type>
+    <description>
+      Enchilada is a type of Shawarma
+    </description>
+    <price>
+      546
+    </price>
+  </instance>  
+  <!-- price for a specific instance of shawarma -->
+  <instance>
+    <outlet rating="6.0">
+      Love is ... shawarma
+    </outlet>
+    <type>
+      Fajitas
+    </type>
+    <description>
+      Fajitas is a type of Shawarma
+    </description>
+    <price>
+      934
+    </price>
+  </instance>  
+  <!-- price for a specific instance of shawarma -->
+  <instance>
+    <outlet rating="6.0">
+      Love is ... shawarma
+    </outlet>
+    <type>
+      Gyros
+    </type>
+    <description>
+      Gyros is a type of Shawarma
+    </description>
+    <price>
+      1908
+    </price>
+  </instance>  
+  <!-- price for a specific instance of shawarma -->
+  <instance>
+    <outlet rating="6.0">
+      Love is ... shawarma
+    </outlet>
+    <type>
+      Pita bread with barbecue
+    </type>
+    <description>
+      Pita bread with barbecue is a type of Shawarma
+    </description>
+    <price>
+      1279
+    </price>
+  </instance>  
+  <!-- price for a specific instance of shawarma -->
+  <instance>
+    <outlet rating="6.0">
+      Love is ... shawarma
+    </outlet>
+    <type>
+      Quesadilla
+    </type>
+    <description>
+      Quesadilla is a type of Shawarma
+    </description>
+    <price>
+      31
+    </price>
+  </instance>  
+  <!-- price for a specific instance of shawarma -->
+  <instance>
+    <outlet rating="6.0">
+      Love is ... shawarma
+    </outlet>
+    <type>
+      Taco
+    </type>
+    <description>
+      Taco is a type of Shawarma
+    </description>
+    <price>
+      1966
+    </price>
+  </instance>  
+  <!-- price for a specific instance of shawarma -->
+  <instance>
+    <outlet rating="6.0">
+      Love is ... shawarma
+    </outlet>
+    <type>
+      Tantuni
+    </type>
+    <description>
+      Tantuni is a type of Shawarma
+    </description>
+    <price>
+      771
+    </price>
+  </instance>  
+  <!-- price for a specific instance of shawarma -->
+  <instance>
+    <outlet rating="4.7">
+      Mmm... Shawarma
+    </outlet>
+    <type>
+      Brtus
+    </type>
+    <description>
+      Brtus is a type of Shawarma
+    </description>
+    <price>
+      1656
+    </price>
+  </instance>  
+  <!-- price for a specific instance of shawarma -->
+  <instance>
+    <outlet rating="4.7">
+      Mmm... Shawarma
+    </outlet>
+    <type>
+      Burrito
+    </type>
+    <description>
+      Burrito is a type of Shawarma
+    </description>
+    <price>
+      857
+    </price>
+  </instance>  
+  <!-- price for a specific instance of shawarma -->
+  <instance>
+    <outlet rating="4.7">
+      Mmm... Shawarma
+    </outlet>
+    <type>
+      Doner kebab
+    </type>
+    <description>
+      Doner kebab is a type of Shawarma
+    </description>
+    <price>
+      1843
+    </price>
+  </instance>  
+  <!-- price for a specific instance of shawarma -->
+  <instance>
+    <outlet rating="4.7">
+      Mmm... Shawarma
+    </outlet>
+    <type>
+      Durum
+    </type>
+    <description>
+      Durum is a type of Shawarma
+    </description>
+    <price>
+      1441
+    </price>
+  </instance>  
+  <!-- price for a specific instance of shawarma -->
+  <instance>
+    <outlet rating="4.7">
+      Mmm... Shawarma
+    </outlet>
+    <type>
+      Enchilada
+    </type>
+    <description>
+      Enchilada is a type of Shawarma
+    </description>
+    <price>
+      1539
+    </price>
+  </instance>  
+  <!-- price for a specific instance of shawarma -->
+  <instance>
+    <outlet rating="4.7">
+      Mmm... Shawarma
+    </outlet>
+    <type>
+      Fajitas
+    </type>
+    <description>
+      Fajitas is a type of Shawarma
+    </description>
+    <price>
+      1819
+    </price>
+  </instance>  
+  <!-- price for a specific instance of shawarma -->
+  <instance>
+    <outlet rating="4.7">
+      Mmm... Shawarma
+    </outlet>
+    <type>
+      Gyros
+    </type>
+    <description>
+      Gyros is a type of Shawarma
+    </description>
+    <price>
+      308
+    </price>
+  </instance>  
+  <!-- price for a specific instance of shawarma -->
+  <instance>
+    <outlet rating="4.7">
+      Mmm... Shawarma
+    </outlet>
+    <type>
+      Pita bread with barbecue
+    </type>
+    <description>
+      Pita bread with barbecue is a type of Shawarma
+    </description>
+    <price>
+      1890
+    </price>
+  </instance>  
+  <!-- price for a specific instance of shawarma -->
+  <instance>
+    <outlet rating="4.7">
+      Mmm... Shawarma
+    </outlet>
+    <type>
+      Quesadilla
+    </type>
+    <description>
+      Quesadilla is a type of Shawarma
+    </description>
+    <price>
+      1406
+    </price>
+  </instance>  
+  <!-- price for a specific instance of shawarma -->
+  <instance>
+    <outlet rating="4.7">
+      Mmm... Shawarma
+    </outlet>
+    <type>
+      Taco
+    </type>
+    <description>
+      Taco is a type of Shawarma
+    </description>
+    <price>
+      448
+    </price>
+  </instance>  
+  <!-- price for a specific instance of shawarma -->
+  <instance>
+    <outlet rating="4.7">
+      Mmm... Shawarma
+    </outlet>
+    <type>
+      Tantuni
+    </type>
+    <description>
+      Tantuni is a type of Shawarma
+    </description>
+    <price>
+      1859
+    </price>
+  </instance>  
+  <!-- price for a specific instance of shawarma -->
+  <instance>
+    <outlet rating="6.7">
+      ShawaDonalds
+    </outlet>
+    <type>
+      Brtus
+    </type>
+    <description>
+      Brtus is a type of Shawarma
+    </description>
+    <price>
+      1637
+    </price>
+  </instance>  
+  <!-- price for a specific instance of shawarma -->
+  <instance>
+    <outlet rating="6.7">
+      ShawaDonalds
+    </outlet>
+    <type>
+      Burrito
+    </type>
+    <description>
+      Burrito is a type of Shawarma
+    </description>
+    <price>
+      724
+    </price>
+  </instance>  
+  <!-- price for a specific instance of shawarma -->
+  <instance>
+    <outlet rating="6.7">
+      ShawaDonalds
+    </outlet>
+    <type>
+      Doner kebab
+    </type>
+    <description>
+      Doner kebab is a type of Shawarma
+    </description>
+    <price>
+      1490
+    </price>
+  </instance>  
+  <!-- price for a specific instance of shawarma -->
+  <instance>
+    <outlet rating="6.7">
+      ShawaDonalds
+    </outlet>
+    <type>
+      Durum
+    </type>
+    <description>
+      Durum is a type of Shawarma
+    </description>
+    <price>
+      895
+    </price>
+  </instance>  
+  <!-- price for a specific instance of shawarma -->
+  <instance>
+    <outlet rating="6.7">
+      ShawaDonalds
+    </outlet>
+    <type>
+      Enchilada
+    </type>
+    <description>
+      Enchilada is a type of Shawarma
+    </description>
+    <price>
+      1234
+    </price>
+  </instance>  
+  <!-- price for a specific instance of shawarma -->
+  <instance>
+    <outlet rating="6.7">
+      ShawaDonalds
+    </outlet>
+    <type>
+      Fajitas
+    </type>
+    <description>
+      Fajitas is a type of Shawarma
+    </description>
+    <price>
+      1461
+    </price>
+  </instance>  
+  <!-- price for a specific instance of shawarma -->
+  <instance>
+    <outlet rating="6.7">
+      ShawaDonalds
+    </outlet>
+    <type>
+      Gyros
+    </type>
+    <description>
+      Gyros is a type of Shawarma
+    </description>
+    <price>
+      999
+    </price>
+  </instance>  
+  <!-- price for a specific instance of shawarma -->
+  <instance>
+    <outlet rating="6.7">
+      ShawaDonalds
+    </outlet>
+    <type>
+      Pita bread with barbecue
+    </type>
+    <description>
+      Pita bread with barbecue is a type of Shawarma
+    </description>
+    <price>
+      1206
+    </price>
+  </instance>  
+  <!-- price for a specific instance of shawarma -->
+  <instance>
+    <outlet rating="6.7">
+      ShawaDonalds
+    </outlet>
+    <type>
+      Quesadilla
+    </type>
+    <description>
+      Quesadilla is a type of Shawarma
+    </description>
+    <price>
+      436
+    </price>
+  </instance>  
+  <!-- price for a specific instance of shawarma -->
+  <instance>
+    <outlet rating="6.7">
+      ShawaDonalds
+    </outlet>
+    <type>
+      Taco
+    </type>
+    <description>
+      Taco is a type of Shawarma
+    </description>
+    <price>
+      201
+    </price>
+  </instance>  
+  <!-- price for a specific instance of shawarma -->
+  <instance>
+    <outlet rating="6.7">
+      ShawaDonalds
+    </outlet>
+    <type>
+      Tantuni
+    </type>
+    <description>
+      Tantuni is a type of Shawarma
+    </description>
+    <price>
+      1798
+    </price>
+  </instance>  
+  <!-- price for a specific instance of shawarma -->
+  <instance>
+    <outlet rating="7.7">
+      ShawaLama
+    </outlet>
+    <type>
+      Brtus
+    </type>
+    <description>
+      Brtus is a type of Shawarma
+    </description>
+    <price>
+      1025
+    </price>
+  </instance>  
+  <!-- price for a specific instance of shawarma -->
+  <instance>
+    <outlet rating="7.7">
+      ShawaLama
+    </outlet>
+    <type>
+      Burrito
+    </type>
+    <description>
+      Burrito is a type of Shawarma
+    </description>
+    <price>
+      1872
+    </price>
+  </instance>  
+  <!-- price for a specific instance of shawarma -->
+  <instance>
+    <outlet rating="7.7">
+      ShawaLama
+    </outlet>
+    <type>
+      Doner kebab
+    </type>
+    <description>
+      Doner kebab is a type of Shawarma
+    </description>
+    <price>
+      247
+    </price>
+  </instance>  
+  <!-- price for a specific instance of shawarma -->
+  <instance>
+    <outlet rating="7.7">
+      ShawaLama
+    </outlet>
+    <type>
+      Durum
+    </type>
+    <description>
+      Durum is a type of Shawarma
+    </description>
+    <price>
+      1241
+    </price>
+  </instance>  
+  <!-- price for a specific instance of shawarma -->
+  <instance>
+    <outlet rating="7.7">
+      ShawaLama
+    </outlet>
+    <type>
+      Enchilada
+    </type>
+    <description>
+      Enchilada is a type of Shawarma
+    </description>
+    <price>
+      764
+    </price>
+  </instance>  
+  <!-- price for a specific instance of shawarma -->
+  <instance>
+    <outlet rating="7.7">
+      ShawaLama
+    </outlet>
+    <type>
+      Fajitas
+    </type>
+    <description>
+      Fajitas is a type of Shawarma
+    </description>
+    <price>
+      1834
+    </price>
+  </instance>  
+  <!-- price for a specific instance of shawarma -->
+  <instance>
+    <outlet rating="7.7">
+      ShawaLama
+    </outlet>
+    <type>
+      Gyros
+    </type>
+    <description>
+      Gyros is a type of Shawarma
+    </description>
+    <price>
+      886
+    </price>
+  </instance>  
+  <!-- price for a specific instance of shawarma -->
+  <instance>
+    <outlet rating="7.7">
+      ShawaLama
+    </outlet>
+    <type>
+      Pita bread with barbecue
+    </type>
+    <description>
+      Pita bread with barbecue is a type of Shawarma
+    </description>
+    <price>
+      778
+    </price>
+  </instance>  
+  <!-- price for a specific instance of shawarma -->
+  <instance>
+    <outlet rating="7.7">
+      ShawaLama
+    </outlet>
+    <type>
+      Quesadilla
+    </type>
+    <description>
+      Quesadilla is a type of Shawarma
+    </description>
+    <price>
+      463
+    </price>
+  </instance>  
+  <!-- price for a specific instance of shawarma -->
+  <instance>
+    <outlet rating="7.7">
+      ShawaLama
+    </outlet>
+    <type>
+      Taco
+    </type>
+    <description>
+      Taco is a type of Shawarma
+    </description>
+    <price>
+      1165
+    </price>
+  </instance>  
+  <!-- price for a specific instance of shawarma -->
+  <instance>
+    <outlet rating="7.7">
+      ShawaLama
+    </outlet>
+    <type>
+      Tantuni
+    </type>
+    <description>
+      Tantuni is a type of Shawarma
+    </description>
+    <price>
+      968
+    </price>
+  </instance>  
+  <!-- price for a specific instance of shawarma -->
+  <instance>
+    <outlet rating="7.7">
+      Shawarma 24
+    </outlet>
+    <type>
+      Brtus
+    </type>
+    <description>
+      Brtus is a type of Shawarma
+    </description>
+    <price>
+      1404
+    </price>
+  </instance>  
+  <!-- price for a specific instance of shawarma -->
+  <instance>
+    <outlet rating="7.7">
+      Shawarma 24
+    </outlet>
+    <type>
+      Burrito
+    </type>
+    <description>
+      Burrito is a type of Shawarma
+    </description>
+    <price>
+      383
+    </price>
+  </instance>  
+  <!-- price for a specific instance of shawarma -->
+  <instance>
+    <outlet rating="7.7">
+      Shawarma 24
+    </outlet>
+    <type>
+      Doner kebab
+    </type>
+    <description>
+      Doner kebab is a type of Shawarma
+    </description>
+    <price>
+      1334
+    </price>
+  </instance>  
+  <!-- price for a specific instance of shawarma -->
+  <instance>
+    <outlet rating="7.7">
+      Shawarma 24
+    </outlet>
+    <type>
+      Durum
+    </type>
+    <description>
+      Durum is a type of Shawarma
+    </description>
+    <price>
+      1340
+    </price>
+  </instance>  
+  <!-- price for a specific instance of shawarma -->
+  <instance>
+    <outlet rating="7.7">
+      Shawarma 24
+    </outlet>
+    <type>
+      Enchilada
+    </type>
+    <description>
+      Enchilada is a type of Shawarma
+    </description>
+    <price>
+      1848
+    </price>
+  </instance>  
+  <!-- price for a specific instance of shawarma -->
+  <instance>
+    <outlet rating="7.7">
+      Shawarma 24
+    </outlet>
+    <type>
+      Fajitas
+    </type>
+    <description>
+      Fajitas is a type of Shawarma
+    </description>
+    <price>
+      234
+    </price>
+  </instance>  
+  <!-- price for a specific instance of shawarma -->
+  <instance>
+    <outlet rating="7.7">
+      Shawarma 24
+    </outlet>
+    <type>
+      Gyros
+    </type>
+    <description>
+      Gyros is a type of Shawarma
+    </description>
+    <price>
+      1626
+    </price>
+  </instance>  
+  <!-- price for a specific instance of shawarma -->
+  <instance>
+    <outlet rating="7.7">
+      Shawarma 24
+    </outlet>
+    <type>
+      Pita bread with barbecue
+    </type>
+    <description>
+      Pita bread with barbecue is a type of Shawarma
+    </description>
+    <price>
+      623
+    </price>
+  </instance>  
+  <!-- price for a specific instance of shawarma -->
+  <instance>
+    <outlet rating="7.7">
+      Shawarma 24
+    </outlet>
+    <type>
+      Quesadilla
+    </type>
+    <description>
+      Quesadilla is a type of Shawarma
+    </description>
+    <price>
+      1544
+    </price>
+  </instance>  
+  <!-- price for a specific instance of shawarma -->
+  <instance>
+    <outlet rating="7.7">
+      Shawarma 24
+    </outlet>
+    <type>
+      Taco
+    </type>
+    <description>
+      Taco is a type of Shawarma
+    </description>
+    <price>
+      815
+    </price>
+  </instance>  
+  <!-- price for a specific instance of shawarma -->
+  <instance>
+    <outlet rating="7.7">
+      Shawarma 24
+    </outlet>
+    <type>
+      Tantuni
+    </type>
+    <description>
+      Tantuni is a type of Shawarma
+    </description>
+    <price>
+      225
+    </price>
+  </instance>  
+  <!-- price for a specific instance of shawarma -->
+  <instance>
+    <outlet rating="5.7">
+      Shawarma is love
+    </outlet>
+    <type>
+      Brtus
+    </type>
+    <description>
+      Brtus is a type of Shawarma
+    </description>
+    <price>
+      1684
+    </price>
+  </instance>  
+  <!-- price for a specific instance of shawarma -->
+  <instance>
+    <outlet rating="5.7">
+      Shawarma is love
+    </outlet>
+    <type>
+      Burrito
+    </type>
+    <description>
+      Burrito is a type of Shawarma
+    </description>
+    <price>
+      452
+    </price>
+  </instance>  
+  <!-- price for a specific instance of shawarma -->
+  <instance>
+    <outlet rating="5.7">
+      Shawarma is love
+    </outlet>
+    <type>
+      Doner kebab
+    </type>
+    <description>
+      Doner kebab is a type of Shawarma
+    </description>
+    <price>
+      967
+    </price>
+  </instance>  
+  <!-- price for a specific instance of shawarma -->
+  <instance>
+    <outlet rating="5.7">
+      Shawarma is love
+    </outlet>
+    <type>
+      Durum
+    </type>
+    <description>
+      Durum is a type of Shawarma
+    </description>
+    <price>
+      871
+    </price>
+  </instance>  
+  <!-- price for a specific instance of shawarma -->
+  <instance>
+    <outlet rating="5.7">
+      Shawarma is love
+    </outlet>
+    <type>
+      Enchilada
+    </type>
+    <description>
+      Enchilada is a type of Shawarma
+    </description>
+    <price>
+      544
+    </price>
+  </instance>  
+  <!-- price for a specific instance of shawarma -->
+  <instance>
+    <outlet rating="5.7">
+      Shawarma is love
+    </outlet>
+    <type>
+      Fajitas
+    </type>
+    <description>
+      Fajitas is a type of Shawarma
+    </description>
+    <price>
+      466
+    </price>
+  </instance>  
+  <!-- price for a specific instance of shawarma -->
+  <instance>
+    <outlet rating="5.7">
+      Shawarma is love
+    </outlet>
+    <type>
+      Gyros
+    </type>
+    <description>
+      Gyros is a type of Shawarma
+    </description>
+    <price>
+      1807
+    </price>
+  </instance>  
+  <!-- price for a specific instance of shawarma -->
+  <instance>
+    <outlet rating="5.7">
+      Shawarma is love
+    </outlet>
+    <type>
+      Pita bread with barbecue
+    </type>
+    <description>
+      Pita bread with barbecue is a type of Shawarma
+    </description>
+    <price>
+      671
+    </price>
+  </instance>  
+  <!-- price for a specific instance of shawarma -->
+  <instance>
+    <outlet rating="5.7">
+      Shawarma is love
+    </outlet>
+    <type>
+      Quesadilla
+    </type>
+    <description>
+      Quesadilla is a type of Shawarma
+    </description>
+    <price>
+      1839
+    </price>
+  </instance>  
+  <!-- price for a specific instance of shawarma -->
+  <instance>
+    <outlet rating="5.7">
+      Shawarma is love
+    </outlet>
+    <type>
+      Taco
+    </type>
+    <description>
+      Taco is a type of Shawarma
+    </description>
+    <price>
+      1658
+    </price>
+  </instance>  
+  <!-- price for a specific instance of shawarma -->
+  <instance>
+    <outlet rating="5.7">
+      Shawarma is love
+    </outlet>
+    <type>
+      Tantuni
+    </type>
+    <description>
+      Tantuni is a type of Shawarma
+    </description>
+    <price>
+      1895
+    </price>
+  </instance>  
+  <!-- price for a specific instance of shawarma -->
+  <instance>
+    <outlet rating="5.3">
+      SHWRM
+    </outlet>
+    <type>
+      Brtus
+    </type>
+    <description>
+      Brtus is a type of Shawarma
+    </description>
+    <price>
+      201
+    </price>
+  </instance>  
+  <!-- price for a specific instance of shawarma -->
+  <instance>
+    <outlet rating="5.3">
+      SHWRM
+    </outlet>
+    <type>
+      Burrito
+    </type>
+    <description>
+      Burrito is a type of Shawarma
+    </description>
+    <price>
+      656
+    </price>
+  </instance>  
+  <!-- price for a specific instance of shawarma -->
+  <instance>
+    <outlet rating="5.3">
+      SHWRM
+    </outlet>
+    <type>
+      Doner kebab
+    </type>
+    <description>
+      Doner kebab is a type of Shawarma
+    </description>
+    <price>
+      1654
+    </price>
+  </instance>  
+  <!-- price for a specific instance of shawarma -->
+  <instance>
+    <outlet rating="5.3">
+      SHWRM
+    </outlet>
+    <type>
+      Durum
+    </type>
+    <description>
+      Durum is a type of Shawarma
+    </description>
+    <price>
+      125
+    </price>
+  </instance>  
+  <!-- price for a specific instance of shawarma -->
+  <instance>
+    <outlet rating="5.3">
+      SHWRM
+    </outlet>
+    <type>
+      Enchilada
+    </type>
+    <description>
+      Enchilada is a type of Shawarma
+    </description>
+    <price>
+      915
+    </price>
+  </instance>  
+  <!-- price for a specific instance of shawarma -->
+  <instance>
+    <outlet rating="5.3">
+      SHWRM
+    </outlet>
+    <type>
+      Fajitas
+    </type>
+    <description>
+      Fajitas is a type of Shawarma
+    </description>
+    <price>
+      505
+    </price>
+  </instance>  
+  <!-- price for a specific instance of shawarma -->
+  <instance>
+    <outlet rating="5.3">
+      SHWRM
+    </outlet>
+    <type>
+      Gyros
+    </type>
+    <description>
+      Gyros is a type of Shawarma
+    </description>
+    <price>
+      1083
+    </price>
+  </instance>  
+  <!-- price for a specific instance of shawarma -->
+  <instance>
+    <outlet rating="5.3">
+      SHWRM
+    </outlet>
+    <type>
+      Pita bread with barbecue
+    </type>
+    <description>
+      Pita bread with barbecue is a type of Shawarma
+    </description>
+    <price>
+      1489
+    </price>
+  </instance>  
+  <!-- price for a specific instance of shawarma -->
+  <instance>
+    <outlet rating="5.3">
+      SHWRM
+    </outlet>
+    <type>
+      Quesadilla
+    </type>
+    <description>
+      Quesadilla is a type of Shawarma
+    </description>
+    <price>
+      531
+    </price>
+  </instance>  
+  <!-- price for a specific instance of shawarma -->
+  <instance>
+    <outlet rating="5.3">
+      SHWRM
+    </outlet>
+    <type>
+      Taco
+    </type>
+    <description>
+      Taco is a type of Shawarma
+    </description>
+    <price>
+      1161
+    </price>
+  </instance>  
+  <!-- price for a specific instance of shawarma -->
+  <instance>
+    <outlet rating="5.3">
+      SHWRM
+    </outlet>
+    <type>
+      Tantuni
+    </type>
+    <description>
+      Tantuni is a type of Shawarma
+    </description>
+    <price>
+      751
+    </price>
+  </instance>  
+  <!-- price for a specific instance of shawarma -->
+  <instance>
+    <outlet rating="5.7">
+      The best shawarma
+    </outlet>
+    <type>
+      Brtus
+    </type>
+    <description>
+      Brtus is a type of Shawarma
+    </description>
+    <price>
+      696
+    </price>
+  </instance>  
+  <!-- price for a specific instance of shawarma -->
+  <instance>
+    <outlet rating="5.7">
+      The best shawarma
+    </outlet>
+    <type>
+      Burrito
+    </type>
+    <description>
+      Burrito is a type of Shawarma
+    </description>
+    <price>
+      364
+    </price>
+  </instance>  
+  <!-- price for a specific instance of shawarma -->
+  <instance>
+    <outlet rating="5.7">
+      The best shawarma
+    </outlet>
+    <type>
+      Doner kebab
+    </type>
+    <description>
+      Doner kebab is a type of Shawarma
+    </description>
+    <price>
+      920
+    </price>
+  </instance>  
+  <!-- price for a specific instance of shawarma -->
+  <instance>
+    <outlet rating="5.7">
+      The best shawarma
+    </outlet>
+    <type>
+      Durum
+    </type>
+    <description>
+      Durum is a type of Shawarma
+    </description>
+    <price>
+      1871
+    </price>
+  </instance>  
+  <!-- price for a specific instance of shawarma -->
+  <instance>
+    <outlet rating="5.7">
+      The best shawarma
+    </outlet>
+    <type>
+      Enchilada
+    </type>
+    <description>
+      Enchilada is a type of Shawarma
+    </description>
+    <price>
+      470
+    </price>
+  </instance>  
+  <!-- price for a specific instance of shawarma -->
+  <instance>
+    <outlet rating="5.7">
+      The best shawarma
+    </outlet>
+    <type>
+      Fajitas
+    </type>
+    <description>
+      Fajitas is a type of Shawarma
+    </description>
+    <price>
+      1603
+    </price>
+  </instance>  
+  <!-- price for a specific instance of shawarma -->
+  <instance>
+    <outlet rating="5.7">
+      The best shawarma
+    </outlet>
+    <type>
+      Gyros
+    </type>
+    <description>
+      Gyros is a type of Shawarma
+    </description>
+    <price>
+      1685
+    </price>
+  </instance>  
+  <!-- price for a specific instance of shawarma -->
+  <instance>
+    <outlet rating="5.7">
+      The best shawarma
+    </outlet>
+    <type>
+      Pita bread with barbecue
+    </type>
+    <description>
+      Pita bread with barbecue is a type of Shawarma
+    </description>
+    <price>
+      1098
+    </price>
+  </instance>  
+  <!-- price for a specific instance of shawarma -->
+  <instance>
+    <outlet rating="5.7">
+      The best shawarma
+    </outlet>
+    <type>
+      Quesadilla
+    </type>
+    <description>
+      Quesadilla is a type of Shawarma
+    </description>
+    <price>
+      372
+    </price>
+  </instance>  
+  <!-- price for a specific instance of shawarma -->
+  <instance>
+    <outlet rating="5.7">
+      The best shawarma
+    </outlet>
+    <type>
+      Taco
+    </type>
+    <description>
+      Taco is a type of Shawarma
+    </description>
+    <price>
+      486
+    </price>
+  </instance>  
+  <!-- price for a specific instance of shawarma -->
+  <instance>
+    <outlet rating="5.7">
+      The best shawarma
+    </outlet>
+    <type>
+      Tantuni
+    </type>
+    <description>
+      Tantuni is a type of Shawarma
+    </description>
+    <price>
+      857
+    </price>
+  </instance></prices>

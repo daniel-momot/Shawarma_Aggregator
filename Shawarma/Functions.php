@@ -1,5 +1,5 @@
 <?php
-
+# function that turns query results into html table
 function make_table($query) {
   $table = '<table class="tbl" cellpadding="10" border="1px"><tr>';
   foreach($query[0] as $key => $val) {
@@ -22,6 +22,7 @@ function make_table($query) {
   return $table;
 }
 
+# function that turns query results into html select
 function make_select($select_name, $query_res = false,  $isRequired = true, $disabled_string = '') {
   $required = $isRequired ? 'required' : '';
   $select = "<select name=\"$select_name\" $required>";
