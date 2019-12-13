@@ -4,7 +4,7 @@ $dsn = 'mysql:dbname=shawarma_base;host=localhost';
 $user = 'root';
 $password = 'vertrigo';
 
-/* make connection to the database server */
+# make connection to the database server
 try {
   $pdo = new PDO($dsn, $user, $password);
 } catch (PDOException $e) {
