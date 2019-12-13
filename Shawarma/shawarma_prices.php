@@ -16,11 +16,16 @@
       Select shawarma type: &nbsp
       
       <?php
+      # This script finds all prices for a user-selected type of shawarma
+        
+        // Make connection to the databse 
         include 'Connect.php';
+        // Use functions from functions.php file (make_table, make_select)
         include 'Functions.php';
         
         $sel_query = $pdo->query("SELECT ID, Type FROM shawarma ORDER BY Type");
         
+        // Make a drop-down list with the types of shawarma
         if(!$sel_query) {
           echo "Database query failed: ({$pdo->errorCode()}) {$pdo->errorInfo()[2]}";
         } else {
@@ -33,6 +38,7 @@
     </form><br />
     
     <?php
+    // If the user clicked on the button, the query results are displayed (all prices for selected type of shawarma).
         if (isset($_POST["show_prices"]) && isset($_POST['shawarma_select'])) {
           $shawarma_id = $_POST['shawarma_select'];
           $prices_header_query = $pdo->query("SELECT Type FROM shawarma WHERE ID = $shawarma_id");

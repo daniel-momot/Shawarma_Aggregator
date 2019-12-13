@@ -2,9 +2,12 @@
 
 header("Content-Type: text/xml");
 
-  // make connection to the databse 
+# This script creates a list of all shawarma in all outlets with prices for them.
+
+// Make connection to the databse 
 include 'Connect.php';
 
+// Select the data from the database 
 $query = 'SELECT outl.Outlet_name AS `Outlet name`,
                  `Average rating`,
                  sh.Type,
@@ -25,6 +28,7 @@ if(!$all_prices_query = $pdo->query($query)) {
   die("Database query failed: ({$pdo->errorCode()}) {$pdo->errorInfo()[2]}");
 }
 
+// Print these results into an XML
 $xml = <<<'EOT'
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="shawarma_style.xsl"?>

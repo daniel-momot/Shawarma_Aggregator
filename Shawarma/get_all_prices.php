@@ -2,9 +2,12 @@
 
 header("Content-Type: text/xml");
 
-  // make connection to the databse 
+# This script creates a list of all shawarma in all outlets with prices for them.
+
+// Make connection to the databse 
 include 'Connect.php';
 
+// Select the data from the database 
 $query = 'SELECT outl.Outlet_name AS `Outlet name`,
                  `Average rating`,
                  sh.Type,
@@ -25,6 +28,7 @@ if(!$all_prices_query = $pdo->query($query)) {
   die("Database query failed: ({$pdo->errorCode()}) {$pdo->errorInfo()[2]}");
 }
 
+// Print these results into an XML file
 $xml = <<<'EOT'
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="shawarma_style.xsl"?>
@@ -59,7 +63,7 @@ $open_file = fopen("shawarma_temp.xml", "w");
 fwrite ($open_file, $xml);
 fclose($open_file);
 
-// close connection to the database 
+// Close connection to the database 
 $pdo = null;
 
 $xmldoc = new DomDocument; 
@@ -68,16 +72,16 @@ $xmldoc->load('shawarma_temp.xml');
 $xsldoc = new DomDocument; 
 $xsldoc->load('shawarma_style.xsl'); 
 
-/* Create an XSLT processor */
+// Create an XSLT processor
 $xsltproc = new XsltProcessor; 
 $xsltproc->importStyleSheet($xsldoc); 
 
-/* Perform the transformation */
-/* Detect errors */
+// Perform the transformation and detect errors 
 if (!$htmlpage = $xsltproc->transformToXML($xmldoc)){
   die('An error occurred while trying to process XSL: ' . libxml_get_last_error());
 } 
-/* Output the resulting HTML */
+
+// Output the resulting HTML 
 echo $htmlpage;
 
 ?>

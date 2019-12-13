@@ -16,11 +16,16 @@
       Select outlet: &nbsp
       
       <?php
+      # This script displays prices for all types of shawarma at a specific outlet
+      
+        // Make connection to the databse 
         include 'Connect.php';
+        // Use functions from functions.php file (make_table, make_select)
         include 'Functions.php';
         
         $sel_query = $pdo->query("SELECT ID, Outlet_name FROM outlets ORDER BY Outlet_name");
         
+        // Make a drop-down list with the outlets
         if(!$sel_query) {
           echo "Database query failed: ({$pdo->errorCode()}) {$pdo->errorInfo()[2]}";
         } else {
@@ -33,6 +38,7 @@
     </form><br />
     
     <?php
+        // If the user clicked on the button, the query results are displayed (prices for all types of shawarma at a specific outlet).
         if (isset($_POST["show_menu"]) && isset($_POST['outlet_select'])) {
           $outlet_id = $_POST['outlet_select'];
           $menu_header_query = $pdo->query("SELECT Outlet_name FROM outlets WHERE ID = $outlet_id");

@@ -21,11 +21,14 @@
     </form><br />
 
 <?php
-  // make connection to the databse 
+  # This script gives top shaverma with the best reviews
+
+  // Make connection to the databse 
   include 'Connect.php';
-  // use functions from functions.php file (make_table)
+  // Use functions from functions.php file (make_table)
   include 'Functions.php';
   
+  // If the user clicked on the button, the query results are displayed.
   if(isset($_POST['num']) && isset($_POST['print'])) {
     $limit = $_POST['num'];
 
