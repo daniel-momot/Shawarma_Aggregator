@@ -41,13 +41,13 @@
   if(isset($_POST['outlet_select']) && isset($_POST['review_rating'])) {
     
 	if(!empty($_POST['review_text'])) {
-		$sel_query = $pdo->query("INSERT INTO `reviews`(`Outlet_ID`, `Rating`, `Review`) VALUES (" . $_POST['outlet_select'].", " . $_POST['review_rating'] .", '" . $_POST['review_text'] . "')");
+		$query = $pdo->query("INSERT INTO `reviews`(`Outlet_ID`, `Rating`, `Review`) VALUES (" . $_POST['outlet_select'].", " . $_POST['review_rating'] .", '" . $_POST['review_text'] . "')");
 	}
 	else {
-		$sel_query = $pdo->query("INSERT INTO `reviews`(`Outlet_ID`, `Rating`) VALUES (" . $_POST['outlet_select'].", " . $_POST['review_rating'] .")");
+		$query = $pdo->query("INSERT INTO `reviews`(`Outlet_ID`, `Rating`) VALUES (" . $_POST['outlet_select'].", " . $_POST['review_rating'] .")");
 	}
     
-    if(!$sel_query) {
+    if(!$query) {
 		echo 'Database query failed: (' . $pdo->errorCode() . ') ' . $pdo->errorInfo()[2];
     } else {
 		echo 'Review successfully added!';
