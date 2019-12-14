@@ -32,7 +32,7 @@
 		<textarea name="review_text" style="width: 30em; height: 15em"></textarea>
 		
 		<br /><br />
-		<input type="submit" name="add_outlet" value="Add">
+		<input type="submit" name="add_review" value="Add">
     </form><br />
 	
 
