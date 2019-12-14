@@ -4,7 +4,7 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Best Shawarmas</title>
+    <title>Shawarma with price in Outlets</title>
 	<?php
 		include 'Connect.php';
 		include 'Functions.php';
@@ -25,14 +25,14 @@
 		  echo make_select('outlet_select', $sel_query);
 		?>
 		
-		<br />
+		<br /><br />
 		Shawarma:
 		<?php
 		  $sel_query = $pdo->query("SELECT ID, Type FROM shawarma ORDER BY Type");
 		  echo make_select('shawarma_select', $sel_query);
 		?>
 		
-		<br />
+		<br /><br />
 		&nbsp Price:
 		<input type="number" name="price" min=0 max=5000 required>
 	  

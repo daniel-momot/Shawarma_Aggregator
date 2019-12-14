@@ -4,7 +4,7 @@
 <prices>  
   <!-- price for a specific instance of shawarma -->
   <instance>
-    <outlet rating="5.7">
+    <outlet rating="6.3">
       Anime Shawarma
     </outlet>
     <type>
@@ -19,7 +19,7 @@
   </instance>  
   <!-- price for a specific instance of shawarma -->
   <instance>
-    <outlet rating="5.7">
+    <outlet rating="6.3">
       Anime Shawarma
     </outlet>
     <type>
@@ -34,7 +34,7 @@
   </instance>  
   <!-- price for a specific instance of shawarma -->
   <instance>
-    <outlet rating="5.7">
+    <outlet rating="6.3">
       Anime Shawarma
     </outlet>
     <type>
@@ -49,7 +49,7 @@
   </instance>  
   <!-- price for a specific instance of shawarma -->
   <instance>
-    <outlet rating="5.7">
+    <outlet rating="6.3">
       Anime Shawarma
     </outlet>
     <type>
@@ -64,7 +64,7 @@
   </instance>  
   <!-- price for a specific instance of shawarma -->
   <instance>
-    <outlet rating="5.7">
+    <outlet rating="6.3">
       Anime Shawarma
     </outlet>
     <type>
@@ -79,7 +79,7 @@
   </instance>  
   <!-- price for a specific instance of shawarma -->
   <instance>
-    <outlet rating="5.7">
+    <outlet rating="6.3">
       Anime Shawarma
     </outlet>
     <type>
@@ -94,7 +94,7 @@
   </instance>  
   <!-- price for a specific instance of shawarma -->
   <instance>
-    <outlet rating="5.7">
+    <outlet rating="6.3">
       Anime Shawarma
     </outlet>
     <type>
@@ -109,7 +109,7 @@
   </instance>  
   <!-- price for a specific instance of shawarma -->
   <instance>
-    <outlet rating="5.7">
+    <outlet rating="6.3">
       Anime Shawarma
     </outlet>
     <type>
@@ -124,7 +124,7 @@
   </instance>  
   <!-- price for a specific instance of shawarma -->
   <instance>
-    <outlet rating="5.7">
+    <outlet rating="6.3">
       Anime Shawarma
     </outlet>
     <type>
@@ -139,7 +139,7 @@
   </instance>  
   <!-- price for a specific instance of shawarma -->
   <instance>
-    <outlet rating="5.7">
+    <outlet rating="6.3">
       Anime Shawarma
     </outlet>
     <type>
@@ -154,7 +154,7 @@
   </instance>  
   <!-- price for a specific instance of shawarma -->
   <instance>
-    <outlet rating="5.7">
+    <outlet rating="6.3">
       Anime Shawarma
     </outlet>
     <type>
@@ -1654,6 +1654,21 @@
   </instance>  
   <!-- price for a specific instance of shawarma -->
   <instance>
+    <outlet rating="5.7">
+      Shawarma is love
+    </outlet>
+    <type>
+      цуц
+    </type>
+    <description>
+      
+    </description>
+    <price>
+      500
+    </price>
+  </instance>  
+  <!-- price for a specific instance of shawarma -->
+  <instance>
     <outlet rating="5.3">
       SHWRM
     </outlet>
@@ -1980,5 +1995,20 @@
     </description>
     <price>
       857
+    </price>
+  </instance>  
+  <!-- price for a specific instance of shawarma -->
+  <instance>
+    <outlet rating="">
+      
+    </outlet>
+    <type>
+      цуцу
+    </type>
+    <description>
+      цуц
+    </description>
+    <price>
+      
     </price>
   </instance></prices>
