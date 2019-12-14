@@ -1,7 +1,4 @@
 <?php
-
-header("Content-Type: text/xml");
-
 # This script creates a list of all shawarma in all outlets with prices for them.
 
 // Make connection to the databse 
@@ -73,7 +70,7 @@ $xsldoc = new DomDocument;
 $xsldoc->load('shawarma_style.xsl'); 
 
 // Create an XSLT processor
-$xsltproc = new XsltProcessor; 
+$xsltproc = new XSLTProcessor; 
 $xsltproc->importStyleSheet($xsldoc); 
 
 // Perform the transformation and detect errors 
