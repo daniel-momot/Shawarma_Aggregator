@@ -1,4 +1,4 @@
-/*==============================================================*/
+﻿/*==============================================================*/
 /* Deleting tables if exist                                     */
 /*==============================================================*/
 drop table if exists Outlet_Shawarma_Price;
@@ -9,7 +9,6 @@ drop table if exists Outlets;
 /*==============================================================*/
 /* Table: Shawarma                                              */
 /*==============================================================*/
-drop table if exists Shawarma;
 create table Shawarma
 (
    ID                   int not null auto_increment,
