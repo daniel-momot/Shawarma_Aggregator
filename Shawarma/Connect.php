@@ -1,6 +1,6 @@
 <?php
 
-$dsn = 'mysql:dbname=shawarma_db;host=localhost';
+$dsn = 'mysql:dbname=shawarma_base;host=localhost';
 $user = 'root';
 $password = 'vertrigo';
 
