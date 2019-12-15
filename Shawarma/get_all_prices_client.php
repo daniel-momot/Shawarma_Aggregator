@@ -54,6 +54,7 @@ foreach ($all_prices_query as $row) {
       $row[4]
     </price>
   </instance>
+
 EOT;
 }
 
